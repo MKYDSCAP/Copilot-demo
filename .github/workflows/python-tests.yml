@@ -27,7 +27,7 @@ jobs:
     - name: Run tests
       working-directory: ./python-calculator
       run: |
-        pytest tests/ -v --cov=calculator --cov-report=term-missing
+        PYTHONPATH=. pytest tests/ -v --cov=calculator --cov-report=term-missing
     
     - name: Test calculator execution
       working-directory: ./python-calculator
