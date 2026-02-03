@@ -2,6 +2,16 @@
 
 Welcome to the GitHub Copilot Demo Repository! This project showcases how GitHub Copilot can help you build complete, production-ready applications across multiple programming languages and frameworks.
 
+## 🌟 **NEW: [Complete Guide to Using Copilot on GitHub.com](GITHUB_COPILOT_GUIDE.md)**
+
+**Want to use GitHub Copilot directly in your browser?** Check out our comprehensive [step-by-step guide](GITHUB_COPILOT_GUIDE.md) that shows you how to:
+- 💬 Use Copilot Chat on GitHub.com
+- 🤖 Leverage AI Agent Expert mode for automated code changes
+- ✨ Create pull requests with AI assistance
+- 🎯 Write effective prompts for best results
+
+Perfect for beginners! **[→ Start the guide now](GITHUB_COPILOT_GUIDE.md)** or use the **[⚡ Quick Start](COPILOT_QUICK_START.md)** for a rapid overview.
+
 ## 📋 What's Included
 
 This repository contains working examples in:
@@ -84,6 +94,7 @@ GitHub Actions workflows automatically:
 
 ## 📚 Learn More
 
+- **[🚀 How to Use Copilot on GitHub.com - Complete Guide](GITHUB_COPILOT_GUIDE.md)** ⭐ **Start Here!**
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [GitHub Actions](https://docs.github.com/en/actions)
 
