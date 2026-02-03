@@ -2,6 +2,33 @@
 
 A quick reference for using GitHub Copilot on GitHub.com. For the complete guide, see [GITHUB_COPILOT_GUIDE.md](GITHUB_COPILOT_GUIDE.md).
 
+## 🎯 Copilot on GitHub.com Overview
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     GitHub.com Interface                     │
+├─────────────────────────────────────────────────────────────┤
+│  Navigation Bar                   [✨ Copilot Icon] ◄────┐  │
+│  ┌──────────────────────────────────────────┐              │  │
+│  │  Repository / File View                  │              │  │
+│  │  ┌────────────────────────────────────┐  │              │  │
+│  │  │  Your Code Here                    │  │              │  │
+│  │  │  Select lines → Right-click →      │  │         Click to │
+│  │  │  "Ask Copilot"                     │  │         open chat│
+│  │  └────────────────────────────────────┘  │              │  │
+│  └──────────────────────────────────────────┘              │  │
+│                                                             │  │
+│  ┌──────────────────────────────────────────┐  ◄───────────┘  │
+│  │  💬 Copilot Chat Panel                   │                 │
+│  │  ────────────────────────────────────    │                 │
+│  │  You: How does this code work?           │                 │
+│  │  🤖: This code implements...             │                 │
+│  │  ────────────────────────────────────    │                 │
+│  │  [Type your question here...]            │                 │
+│  └──────────────────────────────────────────┘                 │
+└─────────────────────────────────────────────────────────────┘
+```
+
 ## 🚀 Getting Started (3 Steps)
 
 1. **Access**: Click the Copilot icon (✨) in the top-right corner of GitHub.com
@@ -34,6 +61,40 @@ A quick reference for using GitHub Copilot on GitHub.com. For the complete guide
 ## 🤖 AI Agent Expert Mode
 
 **Use when you need**: Multi-step changes, complete features, or automated tasks
+
+### Workflow Diagram
+```
+┌──────────────┐
+│ 1. You       │  Create issue or PR with @github-copilot
+│ Create Issue │  "Add feature X with tests and docs"
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ 2. AI Agent  │  Analyzes your request
+│ Analyzes     │  Plans the implementation
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ 3. Agent     │  Creates branch
+│ Implements   │  Makes code changes
+│              │  Writes tests
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ 4. Opens PR  │  Pull request created
+│ For Review   │  with all changes
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ 5. You       │  Review changes
+│ Review &     │  Test locally
+│ Merge        │  Merge when satisfied
+└──────────────┘
+```
 
 **How to use**:
 1. Create or open an issue
